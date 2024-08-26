@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    background-color: white;
+}
+
+/* Semi-container styles */
+.semi-container {
+    background: lightgray;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px 15px;
+}
+
+/* Heading styles */
+.heading h1 {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: black;
+}
+
+.heading p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+/* Photo styles */
+.photo {
+    margin-top: 10px;
+    width: 100%;
+    margin-right: auto;
+    justify-items: center;
+}
+
+/* Image styles */
+.imgNorman {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Bottom text styles */
+.bottom-text {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+/* Semi-container2 styles */
+.semi-container2 h3 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Timeline styles */
+.timeLine ul {
+    width: 58%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.timeLine li {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Semi-container3 styles */
+.semi-container3 {
+    width: 60%;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 15px;
+    height: 50px;
+}
+
+/* Author styles */
+.author {
+    margin-top: 5%;
+}
+
+/* Footer styles */
+.footer h4 {
+    margin-top: 10%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Link styles */
+.link {
+    color: #74638F;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .semi-container {
+        padding: 20px;
+        margin: 15px 10px;
+    }
+
+    .heading p {
+        font-size: medium;
+    }
+
+    .timeLine ul {
+        width: 80%;
+    }
+
+    .semi-container3 {
+        width: 80%;
+    }
+
+    .author {
+        margin-top: 1%;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .semi-container {
+        padding: 15px;
+        margin: 10px 5px;
+    }
+
+    .heading p {
+        font-size: small;
+    }
+
+    .photo {
+        margin-top: 5px;
+    }
+
+    .timeLine ul {
+        width: 90%;
+    }
+
+    .semi-container3 {
+        width: 90%;
+    }
+
+    .author {
+        margin-top: 2%;
+    }
+
+    .footer h4 {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
